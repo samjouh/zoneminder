@@ -250,8 +250,8 @@ $SLANG = array(
     'Contrast'             => 'Kontrasti',
     'Control'              => 'Ohjaus',
     'ControlAddress'       => 'Ohjausosoite',
-    'ControlCap' 					 => 'Ohjauskyky',
-	 	'ControlCaps'          => 'Ohjauskyvyt',
+    'ControlCap'           => 'Ohjauskyky',
+    'ControlCaps'          => 'Ohjauskyvyt',
     'ControlDevice'        => 'Ohjauslaite',
     'ControlType'          => 'Ohjaustyyppi',
     'Controllable'         => 'Ohjattavissa',
@@ -284,7 +284,7 @@ $SLANG = array(
     'Disk'                 => 'Levy',
     'Display'              => 'Näyttö',
     'Displaying'           => 'Näyttää',
-    'DoNativeMotionDetection'=> 'Tee natiivi liikkeentunnistus',
+    'DoNativeMotionDetection' => 'Tee natiivi liikkeentunnistus',
     'Donate'               => 'Ole hyvä ja lahjoita',
     'DonateAlready'        => 'Ei, olen jo lahjoittanut',
     'DonateEnticement'     => 'Olet käyttänyt ZoneMinderiä jo jonkin aikaa ja toivottavasti olet huomannut, että se toimii hyvin kotona tai yrityksessäsi. Vaikka ZoneMinder on, ja tulee olemaan, ilmainen ohjelmisto ja avoin lähdekoodi, se maksaa rahaa kehittää ja ylläpitää. Jos haluat auttaa tulevassa kehityksessä ja uusissa ominaisuuksissa, ole hyvä ja lahjoita. Lahjoitukset ovat tietysti vapaaehtoisia, mutta erittäin arvostettuja ja voit lahjoittaa juuri sen verran kuin haluat.<br><br>Jos haluat antaa lahjoituksen, valitse alla tai käy osoitteessa https://zoneminder.com/donate/.<br><br>Kiitos, että käytät ZoneMinderiä, älä unohda vierailla foorumeilla ZoneMinder.comissa saadaksesi tukea ja ehdotuksia siitä, kuinka saada ZoneMinder toimimaan vielä paremmin.',
@@ -420,7 +420,7 @@ $SLANG = array(
     'Line'                 => 'Viiva',
     'LinkedMonitors'       => 'Linkitetyt näytöt',
     'List'                 => 'Lista',
-  	'ListMatches'          => 'Listaa osumat',
+    'ListMatches'          => 'Listaa osumat',
     'Load'                 => 'Kuormitus',
     'Local'                => 'Paikallinen',
     'Log'                  => 'Loki',
@@ -546,7 +546,7 @@ $SLANG = array(
     'NumPresets'           => 'Esiasetusten määrä',
     'Off'                  => 'Pois',
     'On'                   => 'Päällä',
-    'OnvifCredentialsIntro'=> 'Anna valitun kameran käyttäjänimi ja salasana.<br/>Jos kameralle ei ole luotu käyttäjää, käyttäjä luodaan annetulla salasanalla.<br/><br/>', // Added - 2015-04-18
+    'OnvifCredentialsIntro' => 'Anna valitun kameran käyttäjänimi ja salasana.<br/>Jos kameralle ei ole luotu käyttäjää, käyttäjä luodaan annetulla salasanalla.<br/><br/>', // Added - 2015-04-18
     'OnvifProbe'           => 'ONVIF',
     'OnvifProbeIntro'      => 'Alla oleva lista näyttää havaitut ONVIF-kamerat ja niiden käytön tilan.<br/><br/>Valitse haluamasi merkintä listalta.<br/><br/>Huomioi, että kaikki kamerat eivät välttämättä näy ja kameran valinta voi ylikirjoittaa nykyiset asetukset.<br/><br/>', // Added - 2015-04-18
     'OpEq'                 => 'yhtä suuri kuin',
@@ -633,7 +633,7 @@ $SLANG = array(
     'RestrictedMonitors'   => 'Rajoitetut valvojat',
     'ReturnDelay'          => 'Palautusviive',
     'ReturnLocation'       => 'Palaa sijaintiin',
-	  'Rewind'               => 'Kelaa taaksepäin',
+    'Rewind'               => 'Kelaa taaksepäin',
     'RotateLeft'           => 'Kierrä vasemmalle',
     'RotateRight'          => 'Kierrä oikealle',
     'RunLocalUpdate'       => 'Suorita zmupdate.pl päivityksen suorittamiseksi', 
@@ -740,7 +740,7 @@ $SLANG = array(
     'UseFilter'            => 'Käytä suodatinta',
     'UseFilterExprsPost'   => '&nbsp;suodatin&nbsp;ilmaisut', // This is used at the end of the phrase 'use N filter expressions'
     'UseFilterExprsPre'    => 'Käytä&nbsp;', // This is used at the beginning of the phrase 'use N filter expressions'
-    'UsedPlugins'	         => 'Käytetyt liitännäiset',
+    'UsedPlugins'	   => 'Käytetyt liitännäiset',
     'User'                 => 'Käyttäjä',
     'Username'             => 'Käyttäjänimi',
     'Users'                => 'Käyttäjät',
@@ -929,22 +929,22 @@ function zmVlang( $langVarArray, $count )
 // These overrides are in the form show below where the array key represents the option name minus the initial ZM_
 $OLANG = array(
     'LANG_DEFAULT' => array(
-			'Prompt' => "Valitse kieli ZoneMinderille",
-        'Help' => "ZoneMinder voi käyttää muuta kieltä kuin englantia valikoissa ja teksteissä. Valitse tästä kieli, jota haluat käyttää ZoneMinderissa."
+	'Prompt'   => "Valitse kieli ZoneMinderille",
+        'Help'     => "ZoneMinder voi käyttää muuta kieltä kuin englantia valikoissa ja teksteissä. Valitse tästä kieli, jota haluat käyttää ZoneMinderissa."
     ),
     'OPTIONS_FFMPEG' => array(
-        'Help' => "Tämä kenttä välittää parametrit FFmpegille. Useita parametreja voidaan erottaa ,~~ ".
-                  "Esimerkkejä (älä lisää lainausmerkkejä)~~~~".
-                  "\"allowed_media_types=video\" Aseta datatyyppi pyydettäväksi kamerasta (ääni, video, data)~~~~".
-                  "\"reorder_queue_size=nnn\" Aseta puskuroitavien pakettien määrä uudelleenjärjestettyjen pakettien käsittelyä varten~~~~".
-                  "\"loglevel=debug\" Aseta FFmpeg:n tiedotustaso (quiet, panic, fatal, error, warning, info, verbose, debug)"
+        'Help'     => "Tämä kenttä välittää parametrit FFmpegille. Useita parametreja voidaan erottaa ,~~ ".
+                   "Esimerkkejä (älä lisää lainausmerkkejä)~~~~".
+                   "\"allowed_media_types=video\" Aseta datatyyppi pyydettäväksi kamerasta (ääni, video, data)~~~~".
+                   "\"reorder_queue_size=nnn\" Aseta puskuroitavien pakettien määrä uudelleenjärjestettyjen pakettien käsittelyä varten~~~~".
+                   "\"loglevel=debug\" Aseta FFmpeg:n tiedotustaso (quiet, panic, fatal, error, warning, info, verbose, debug)"
     ),
     'OPTIONS_LIBVLC' => array(
-        'Help' => "Tämä kenttä välittää parametrit libVLC:lle. Useita parametreja voidaan erottaa ,~~ ".
+        'Help'    => "Tämä kenttä välittää parametrit libVLC:lle. Useita parametreja voidaan erottaa ,~~ ".
                   "Esimerkkejä (älä lisää lainausmerkkejä)~~~~".
                   "\"--rtp-client-port=nnn\" Aseta paikallinen portti rtp-datan käyttöä varten~~~~". 
                   "\"--verbose=2\" Aseta libVLC:n tiedotustaso"
     ),
 );
-	
+
 ?>
