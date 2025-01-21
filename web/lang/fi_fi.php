@@ -1,7 +1,7 @@
 <?php
 //
 // ZoneMinder web Finnish language file, $Date$, $Revision$
-// Copyright (C) 2024 Sami Jouhki
+// Copyright (C) 2024 sjo1@iki.fi
 //
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
